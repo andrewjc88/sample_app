@@ -2,3 +2,8 @@ tom:
   name: Tom Smith
   email: tom@smith.com
   password_digest: <%= User.digest('password') %>
+
+tim:
+  name: tim cornell
+  email: tim@cornell.com
+  password_digest: <%= User.digest('password') %>
